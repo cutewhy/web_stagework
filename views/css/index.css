@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Micrisoft Yahei';
+    background-color: #fff;
+}
+
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+.wrap {
+    overflow: hidden;
+    position: fixed;
+    min-width: 375px;
+    width: 10rem;
+    height: 100%;
+    left: 50%;
+    margin-left: -5rem;
+}
+
+.header {
+    display: flex;
+    width: 10rem;
+    height: 1.7067rem;
+    line-height: 1.7067rem;
+    background: #446Adf;
+}
+
+.email {
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/email.png) no-repeat;
+    background-size: 1rem 1rem;
+    margin: 0.35rem 1.8rem 0 0.5rem;
+}
+
+.logo {
+    width: 3.4rem;
+    height: 1.1rem;
+    background: url(../images/headerLogo.png) no-repeat;
+    background-size: 3.4rem 1.1rem;
+    margin: 0.3rem 2rem 0 0;
+}
+
+.search {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(../images/search.png) no-repeat;
+    background-size: 0.8rem 0.8rem;
+    margin: 0.4rem 0 0 0;
+}
+
+.main {
+    overflow: hidden;
+    position: absolute;
+    width: 10rem;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 1.7067rem;
+    bottom: 1.5467rem;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+.banner img {
+    width: 100%;
+    height: 4.5333rem;
+}
+
+.banner {
+    height: 4.5333rem;
+    margin-bottom: .4267rem;
+}
+
+.employment-course {
+    width: 100%;
+    height: 6.4533rem;
+    background-color: #fff;
+    margin-bottom: .4267rem;
+}
+
+.employment-course h4 {
+    padding-top: .2667rem;
+    font-weight: 700;
+    font-size: .3467rem;
+    color: #446ADF;
+    text-align: center;
+}
+
+.employment-course h4 span {
+    padding: .4rem;
+}
+
+.employment-course a {
+    float: left;
+    width: 3.3333rem;
+    height: 2.8533rem;
+    text-align: center;
+}
+
+.employment-course a img {
+    display: block;
+    width: 1.8667rem;
+    height: 1.8667rem;
+    margin: 0.55rem auto 0;
+    border-radius: 50%;
+}
+
+.micro-class {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.micro-class h4 {
+    padding-top: .2667rem;
+    font-weight: 700;
+    font-size: .3467rem;
+    color: #446ADF;
+    text-align: center;
+}
+
+.micro-class h4 span {
+    padding: .4rem;
+}
+
+.nav {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10rem;
+    height: 1.5467rem;
+    background-color: #fff;
+    border-top: 1px solid #B4B8B9;
+}
+
+.homepage,
+.classify {
+    float: left;
+    width: 1.2rem;
+    height: 1.5467rem;
+    margin-left: 1.0667rem;
+    text-align: center;
+}
+
+.homepage img,
+.classify img {
+    width: 0.8rem;
+    margin-top: .1333rem;
+}
+
+.homepage p,
+.classify p {
+    font-size: .2667rem;
+    color: #00AEFB;
+}
+
+.nav .right {
+    float: right;
+    margin-right: 1.0667rem;
+}

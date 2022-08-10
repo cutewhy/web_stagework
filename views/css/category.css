@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Micrisoft Yahei';
+    background-color: #fff;
+}
+
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+.wrap {
+    overflow: hidden;
+    position: fixed;
+    min-width: 375px;
+    width: 10rem;
+    height: 100%;
+    left: 50%;
+    margin-left: -5rem;
+    background-color: #f1f1f1;
+}
+
+.header {
+    display: flex;
+    width: 10rem;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    background: #fff;
+    margin-bottom: .4267rem;
+}
+
+.logo {
+    width: 3rem;
+    height: 1rem;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 3rem 1rem;
+    margin: 0.35rem 1rem 0 0.3rem;
+}
+
+.header h4 {
+    color: #28ABFC;
+    font-size: .6933rem;
+}
+
+.main {
+    overflow: hidden;
+    position: absolute;
+    width: 10rem;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 2.1867rem;
+    bottom: 1.5467rem;
+    /* -webkit-overflow-scrolling: touch; */
+    background-color: #f1f1f1;
+}
+
+.main .tab_list {
+    float: left;
+    background-color: #f1f1f1;
+}
+
+.tab_list ul li {
+    width: 3rem;
+    height: 1.4933rem;
+    line-height: 1.4933rem;
+    font-size: .4267rem;
+    text-align: center;
+    color: #333;
+}
+
+.tab_list .current {
+    background-color: #fff;
+}
+
+.tab_con {
+    float: right;
+    width: 7rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.tab_con .item:first-child,
+.item:nth-child(2) {
+    padding-left: .4533rem;
+}
+
+.tab_con img {
+    width: 6.4rem;
+    height: 2.2933rem;
+}
+
+.tab_con h5:first-child {
+    font-weight: 400;
+    margin: .4rem 0 0.32rem;
+    font-size: .48rem;
+    color: #28ABFC;
+}
+
+.tab_con .advance {
+    margin-top: .2133rem;
+    font-size: 0.48rem;
+    color: #28ABFC;
+}
+
+.pic {
+    position: relative;
+}
+
+.pic p {
+    position: absolute;
+    left: 0.9rem;
+    top: 0.8rem;
+    font-size: .5333rem;
+    color: #fff;
+}
+
+.item {
+    display: none;
+}
+
+.tab_con ul {
+    overflow: hidden;
+    padding-left: .1333rem;
+}
+
+.tab_con ul li {
+    float: left;
+    font-size: .3733rem;
+    color: #c0c0c0;
+    margin-right: .2667rem;
+    margin-top: .5333rem;
+    border-radius: .1333rem;
+    border: 1px solid #CCCCCC;
+    padding: .16rem .4rem;
+}
+
+.nav {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10rem;
+    height: 1.5467rem;
+    background-color: #fff;
+    border-top: 1px solid #B4B8B9;
+}
+
+.homepage,
+.classify {
+    float: left;
+    width: 1.2rem;
+    height: 1.5467rem;
+    margin-left: 1.0667rem;
+    text-align: center;
+}
+
+.homepage img,
+.classify img {
+    width: 0.8rem;
+    margin-top: .1333rem;
+}
+
+.homepage p,
+.classify p {
+    font-size: .2667rem;
+    color: #00AEFB;
+}
+
+.nav .right {
+    float: right;
+    margin-right: 1.0667rem;
+}
